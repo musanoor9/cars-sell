@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: aqua;
+}
+nav h1 {
+  color: black;
+  font-size: 90px;
+  background: white;
+  margin: 2% 1%;
+  border-radius: 30px;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 2% 2%;
+  margin-left: 50%;
+}
+nav ul li {
+  margin: 2% 10%;
+  color: black;
+  font-size: 22px;
+  margin-top: -150px;
+  font-weight: 600;
+}
+.middle-img {
+  background: #ddd;
+  border-radius: 20px;
+}
+.middle-img img {
+  border-radius: 20px;
+  width: 25%;
+  margin: 2% 5%;
+}
+.middle-img h2 {
+  color: red;
+  font-size: 45px;
+  margin: -2% 5%;
+}
+.middle-img p {
+  color: blueviolet;
+  font-size: 50px;
+}
+.heading p {
+  padding-right: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  gap: 5%;
+  height: 20%;
+  overflow-x: auto;
+  cursor: pointer;
+  padding: 80px;
+}
+.card img {
+  width: 20%;
+  height: 20%;
+  border-radius: 20px;
+  gap: 10%;
+  width: 500px;
+  height: 500px;
+}
+.card h2 {
+  color: green;
+  margin: 3% 5%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+.card p {
+  color: red;
+  background: #ddd;
+  border-radius: 30px;
+  font-size: 50px;
+  margin: 0 5%;
+  padding: 10px;
+  width: 350px;
+}
+.name::-webkit-scrollbar {
+  display: none;
+}
+.new-model {
+  background: #ddd;
+}
+.new-model img {
+  width: 25%;
+  margin: 2% 5%;
+  border-radius: 20px;
+}
+.new-model h2 {
+  margin: -2% 5%;
+  color: forestgreen;
+  font-size: 45px;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  margin: 5%;
+  overflow-x: auto;
+  cursor: pointer;
+  width: 100%;
+}
+.card img {
+  display: flex;
+  width: 20%;
+  height: 20%;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+}
+.loss h2 {
+  color: red;
+}
+.loss p {
+  color: chocolate;
+}
+.total::-webkit-scrollbar {
+  display: none;
+}
+.high-power {
+  background: #ddd;
+}
+.high-power img {
+  width: 25%;
+  margin: 2% 5%;
+  border-radius: 20px;
+}
+.high-power h2 {
+  margin: -2% 5%;
+  color: rgb(150, 5, 233);
+  font-size: 45px;
+}
+.power {
+  display: flex;
+  gap: 5%;
+  height: 20%;
+  overflow-x: auto;
+  cursor: pointer;
+  padding: 80px;
+}
+.maze img {
+  width: 20%;
+  height: 20%;
+  border-radius: 20px;
+  gap: 10%;
+  width: 500px;
+  height: 500px;
+}
+.maze h2 {
+  color: rgb(251, 2, 122);
+  margin: 3% 5%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+.maze p {
+  color: rgb(255, 0, 204);
+  background: #ddd;
+  border-radius: 30px;
+  font-size: 50px;
+  margin: 0 5%;
+  padding: 10px;
+  width: 350px;
+}
+.power::-webkit-scrollbar {
+  display: none;
+}
